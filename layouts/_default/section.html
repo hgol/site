@@ -1,0 +1,11 @@
+{{ partial "head" . }}
+<article id="main-content" class="container main_content single">
+  {{ partial "license-logo" . }}
+  {{ partial "summary-disclaimer" . }}
+  {{ partial "license-notices" . }}
+  {{ .Render "single.hat" }}
+  {{ .Render "single.content" }}
+  {{ .Render "single.boot" }}
+  {{/* DISABLE FOR NOW partial "logo-download-link" . */}}
+</article>
+{{ partial "foot" . }}

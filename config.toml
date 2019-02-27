@@ -1,0 +1,8 @@
+baseURL = "http://halfgray.tk/licenses/"
+languageCode = "en-US"
+title = "Half-Gray Open Licenses"
+theme = "hyde-y"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+sidebar = "left"

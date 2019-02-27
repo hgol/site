@@ -1,0 +1,6 @@
+{{ with .CurrentSection.Resources.GetMatch "previous_name.txt" }}
+	<div class="notice">
+		<h2>Note</h2>
+		<p>This license was previously known as the <i>{{ .Content }}</i>.</p>
+	</div>
+{{ end }}

@@ -1,0 +1,10 @@
+{{ partial "head" . }}
+<article id="main-content" class="container main_content single">
+  <h2 class="homepage-title">{{ .Site.Title }}</h2>
+  <div class="homepage-logo">
+    <img src="{{ .Site.BaseURL }}img/hgol.png" alt=""/>
+  </div>
+  {{ .Render "single.content" }}
+  {{ .Render "single.boot" }}
+</article>
+{{ partial "foot" . }}

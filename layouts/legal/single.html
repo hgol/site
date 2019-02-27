@@ -1,0 +1,8 @@
+{{ partial "head" . }}
+<article id="main-content" class="container main_content single">
+    {{ partial "license-logo" . }}
+    {{ partial "license-notices" . }}
+    {{ .Render "single.content" }}
+    {{ .Render "single.boot" }}
+</article>
+{{ partial "foot" . }}
