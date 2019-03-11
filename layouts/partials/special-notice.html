@@ -1,6 +1,6 @@
-{{ if fileExists (print "content/" .CurrentSection.Dir "special_notice.md") }}
+{{ with .CurrentSection.GetPage "special_notice/index.md" }}
 	<div class="notice">
 		<h2>Note</h2>
-		<p>{{ (.CurrentSection.GetPage "special_notice.md").Content }}</p>
+		<p>{{ .Content }}</p>
 	</div>
 {{ end }}
