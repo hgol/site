@@ -1,6 +1,7 @@
 +++
 type = "legal"
 title = "Hybrid Open License (Legal Text)"
+outputs = ["HTML", "PlainText"]
 aliases = ["/legal:reciprocal_noncommercial-free_license"]
 +++
 

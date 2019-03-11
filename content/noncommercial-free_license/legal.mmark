@@ -1,6 +1,7 @@
 +++
 type = "legal"
 title = "Noncommercial-Free License (Legal Text)"
+outputs = ["HTML", "PlainText"]
 aliases = ["/legal:noncommercial-free_license"]
 +++
 

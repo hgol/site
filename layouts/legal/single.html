@@ -2,6 +2,7 @@
 <article id="main-content" class="container main_content single">
     {{ partial "license-logo" . }}
     {{ partial "license-notices" . }}
+    {{ partial "plaintext-download-link" . }}
     {{ .Render "single.content" }}
     {{ .Render "single.boot" }}
 </article>

@@ -1,6 +1,7 @@
 +++
 type = "legal"
 title = "Simple Free License (Legal Text)"
+outputs = ["HTML", "PlainText"]
 aliases = ["/legal:standard_free_license", "/legal:free_photo_license"]
 +++
 
