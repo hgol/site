@@ -11,4 +11,4 @@ It also contains a Perl script (`prepare-legal-text.pl`) for preparing the legal
 
 ## License
 
-Site content is available under the MIT License. Refer to `LICENSE.txt` for details.
+The contents of this repository are available under the MIT License. Refer to `LICENSE.txt` for details.
