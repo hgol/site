@@ -1,4 +1,4 @@
-baseURL = "http://halfgray.tk/licenses/"
+baseURL = "https://halfgray.xyz/licenses/"
 languageCode = "en-US"
 title = "Half-Gray Open Licenses"
 theme = "hyde-y"

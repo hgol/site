@@ -1,6 +1,6 @@
 # Half-Gray Open Licenses (Website Source Code)
 
-This repository contains the source code of the website for [Half-Gray Open Licenses](http://halfgray.tk/licenses).
+This repository contains the source code of the website for [Half-Gray Open Licenses](https://halfgray.xyz/licenses).
 
 It also contains a Perl script (`prepare-legal-text.pl`) for preparing the legal-text pages (under `content`) from the source texts (in the [license texts repository](https://github.com/hgol/license-texts)).
 
