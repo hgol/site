@@ -7,6 +7,9 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 [params]
 sidebar = "left"
 
+[security.exec]
+allow = "^pandoc$"
+
 [outputFormats.PlainText]
 mediaType = "text/plain"
 baseName = "plain_text"
